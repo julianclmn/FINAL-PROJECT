@@ -1,0 +1,52 @@
+
+body{
+  margin:0;
+  backgorund-color:#D9D0B4;
+}
+.container{
+  width:80%;
+  margin: 0 auto;
+}
+li{
+  font-family: 'Inconsolata', Times New Roman;
+}
+
+.fa-duotone fa-mountain-sun{
+  float:left;
+  padding:10px 0;
+}
+
+header{
+  background:#D2D9DA;
+}
+
+nav{
+  float:right;
+}
+
+header::after{
+  content:'';
+display:table;
+clear:both,
+
+}
+nav ul{
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+
+nav li{
+  display:inline-bloack;
+  margin-left:70px;
+  padding-top:25px;
+}
+
+nav a {
+  text-decoration:none;
+  text-transform:uppercase;
+  color:white;
+}
+nav a::hover{
+  color:black;
+}
